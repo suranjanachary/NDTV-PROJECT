@@ -1,0 +1,299 @@
+
+#left{
+    width: 20%;
+    margin-left: 5%;
+}
+#left>img{
+    width:auto;
+    height: 50px;
+    padding-top:4px ;
+    padding-left: 3px;
+}
+#nav{
+    display: flex;
+    border: 0px solid black;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+
+}
+#mid{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    color: rgb(65, 63, 63);
+    text-decoration: none;
+}
+#right{
+    width: 20%;
+}
+#right>img{
+    height: 40px;
+    
+}
+#first{
+    width: 90%;
+    margin: auto;
+    
+}
+#first>img{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    /* position: relative; */
+}
+.featured{
+    margin-left: 5%;
+    margin-top: 100px;
+}
+h2{
+    margin-left: 5%;
+}
+#ent{
+    background-color: rgb(239, 96, 189);
+    color: white;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding: 10px 10px 10px 10px;
+    border: 0px solid;
+    position: absolute;
+    margin-left: 200px;
+    margin-top:-200px ;
+
+}
+#infinity{
+    width: 100%;
+    height: auto;
+    background-color: rgb(238, 238, 238);
+    padding-top: 8px;
+}
+
+#firsthead{
+    display: flex;
+    justify-content:start;
+    position: absolute;
+    margin-left: 200px;
+    margin-top:-150px ;
+    /* justify-content: space-between; */
+    
+}
+#firsthead>h1{
+    color:#ffffff;
+    font-size: 32px;
+    font-family: roboto,sans-serif;
+}
+#firsthead>img{
+    margin-right:50px ;
+    height: 60px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+#span1{
+    font-size: 32px;
+    font-family: roboto,sans-serif;
+    color: #cccccc;
+    font-weight: lighter;
+}
+#second{ 
+    border: 0px solid black;
+    width:90%;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 15px;
+    justify-content: space-between;
+   
+}
+#card1{
+    border: 0px solid red;
+    border-radius: 15px;
+    width: 32%;
+    height: auto;
+    background-image:url("https://drop.ndtv.com/albums/ENTERTAINMENT/katrina-kaif-an_637871896649878968/637871896649878968_640x480.jpeg" );
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    background-color: #fff;
+    overflow: auto;
+}
+#card2{
+    border: 0px solid red;
+    border-radius: 15px;
+    width: 32%;
+    height: auto;
+    background-image:url("https://drop.ndtv.com/albums/ENTERTAINMENT/met-gala-2022-t_637871891774200133/637871891774200133_640x480.jpeg" );
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    background-color: #fff;
+    overflow: auto;
+}
+#card3{
+    border: 0px solid red;
+    border-radius: 15px;
+    width: 32%;
+    height: auto;
+    background-image:url("https://drop.ndtv.com/albums/NEWS/pics-eid-celebr_637871672690863546/637871672690863546_640x480.jpeg" );
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* position: relative; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    background-color: #fff;
+    overflow: auto;
+}
+#card4,#card5,#card6{
+    border: 0px solid red;
+    border-radius: 15px;
+    width: 32%;
+    height: auto;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    background-color: #fff; 
+    overflow: auto;
+}
+#second>div>h2{
+    color: white;
+    font-family: roboto,sans-serif;
+   padding-top: 270px;
+   color: #2E2E2E;
+   margin-left: 5%;
+   text-align: left;
+}
+.justi1{
+    display: flex;
+    justify-content: space-between;
+    color: #a60b95;
+    width: 90%;
+    margin-left: 5%;
+    /* position: absolute; */
+    margin-top: 10px;
+    font-family: robot,sans-serif;
+    font-weight:normal;
+}
+.singleline{
+    margin-top: 45px;
+}
+#third{
+    border: 0px solid red;
+    width: 90%;
+    margin: auto;
+    height: 500px;
+    margin-top: 30px;
+    display: flex;
+}
+.left{
+    width: 49%;
+    height: 500px;
+    border: 0px solid pink;
+    border-radius: 15px;
+}
+.right{
+    width: 49%;
+    height: 88%;
+    border:0px solid purple;
+    margin: auto;
+    margin-top: 0px;
+    border-radius: 15px;
+    /* display: flex; */
+}
+.righttop{
+    width: 100%;
+    height: 46.5%;
+    border:0px solid purple;
+    /* margin-bottom: 10px; */
+    border-radius: 15px;
+    display: flex;
+    background-color: #fff;
+    
+}
+.rightbot{
+    width:100%;
+    height: 46.5%;
+    border:0px solid purple;
+    border-radius: 15px;
+    margin-top: 30px;
+    display: flex;
+    background-color: #fff;
+}
+.left>img{
+    width: 100%;
+    border-radius: 15px;
+}
+.rightbot>div>img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius:15px;
+}
+.righttop>div>img{
+   width: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius:15px;
+}
+.lft{
+    border: 0px solid rgb(159, 245, 159);
+    width: 50%;
+    height: 100%;
+}
+.rgt{
+    border: 0px solid rgb(159, 245, 159);
+    width: 50%;
+    height: 100%;
+}
+.rgt>h3{
+
+   font-family: roboto,sans-serif;
+   color: #2E2E2E;
+   margin-left: 5%;
+   text-align: left;
+   width: 80%;
+}
+.lft>img{
+   height: 100%;
+}
+.ent{
+    color: #a60b95;
+    margin-left: 5%;
+    /* position: absolute; */
+    margin-top: 60px;
+    font-family: robot,sans-serif;
+    font-weight:normal;
+}
+#fourth{
+border: 0px solid pink;
+width: 90%;
+height: auto;
+margin: auto;
+display: flex;
+justify-content: space-between;
+
+}
+#card4>img,#card5>img,#card6>img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: -20px;
+}
+#card4>h2,#card5>h2,#card6>h2{
+    font-family: roboto,sans-serif; 
+    color: #2E2E2E;
+    margin-left: 5%;
+    text-align: left;
+}
+.justi2{
+    display: flex;
+    justify-content: space-between;
+    color: #434343;
+    width: 90%;
+    margin-left: 5%;
+    /* position: absolute; */
+    /* margin-t: 100px; */
+    font-family: robot,sans-serif;
+    font-weight:normal;
+}
+    *{
+        font-family: roboto,sans-serif; 
+        color: #2E2E2E;  
+    }
+
